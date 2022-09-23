@@ -1,0 +1,26 @@
+.container {
+    height: 37px;
+    padding: 0 9px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1E4DB;
+    cursor: pointer;
+    width: fit-content;
+    caret-color: transparent;
+    border: 0;
+}
+
+.label {
+    font-size: 14px;
+    color: rgba(0,0,0,0.6);
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

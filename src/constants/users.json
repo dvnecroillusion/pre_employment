@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "John Smith",
+      "email": "John.smith@test.com",
+      "isAdmin": true,
+      "honorific": "Mr. "
+    },
+    {
+      "id": 2,
+      "fullName": "Giuseppe verdi",
+      "email": "Giuseppe.verdi@test.com",
+      "isAdmin": true,
+      "honorific": "Mr. "
+    },
+    {
+      "id": 3,
+      "fullName": "Harry Jones",
+      "email": "Harry.jones@test.com",
+      "isAdmin": true,
+      "honorific": "Mr. "
+    },
+    {
+      "id": 4,
+      "fullName": "Mario Rossi",
+      "email": "Mario.Rossi@test.com",
+      "isAdmin": true,
+      "honorific": "Mr. "
+    },
+    {
+      "id": 5,
+      "fullName": "Giovanna Bianchi",
+      "email": "Giovanna.bianchi@test.com",
+      "isAdmin": true,
+      "honorific": "Miss."
+    }
+  ]
+}

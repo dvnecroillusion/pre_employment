@@ -1,0 +1,18 @@
+.header {
+    height: 65px;
+    position: sticky;
+    border-bottom-width: 10px;
+    border-bottom-color: #F1E4DB;
+    border-bottom-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.headerTitle {
+    font-size: 26px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    caret-color: transparent;
+}
