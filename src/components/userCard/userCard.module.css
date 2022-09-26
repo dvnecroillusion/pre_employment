@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     background: #F1E4DB;
+    border-right: 2px solid #000000;
 }
 
 .contentContainer {
@@ -52,4 +53,18 @@
     bottom: 20px;
     right: 20px;
     display: flex;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.noBorder {
+    border: 0;
+}
+
+.toggleContainer {
+    display: flex;
+    align-items: center;
 }

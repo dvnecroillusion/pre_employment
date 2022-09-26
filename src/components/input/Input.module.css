@@ -1,0 +1,10 @@
+.container {
+    width: 236px;
+    height:36px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #E0E1E2;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}

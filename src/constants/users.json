@@ -11,14 +11,14 @@
       "id": 2,
       "fullName": "Giuseppe verdi",
       "email": "Giuseppe.verdi@test.com",
-      "isAdmin": true,
+      "isAdmin": false,
       "honorific": "Mr. "
     },
     {
       "id": 3,
       "fullName": "Harry Jones",
       "email": "Harry.jones@test.com",
-      "isAdmin": true,
+      "isAdmin": false,
       "honorific": "Mr. "
     },
     {

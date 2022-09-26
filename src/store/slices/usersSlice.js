@@ -1,23 +1,40 @@
-import { createSlice } from '@reduxjs/toolkit'
+import {createSlice} from '@reduxjs/toolkit'
 import defaultUsers from "../../constants/users.json";
 
 const initialState = {
-    users: defaultUsers.users,
+    usersList: [...defaultUsers.users],
 }
 
 export const usersSlice = createSlice({
-    name: 'counter',
+    name: 'users',
     initialState,
     reducers: {
+        initState: (state) => {
+            state.usersList = [...defaultUsers.users];
+        },
+        setDefaultList: (state, action) => {
+          state.usersList = action.payload;
+        },
         addUser: (state, action) => {
-            state.users = [...state.users, action.payload];
+            state.usersList.push(action.payload);
         },
         editUser: (state, action) => {
-            state.users = [...state.users, action.payload];
+            state.usersList = state.usersList.map(user => {
+                if (user.id === action.payload.id) {
+                    return action.payload
+                } else {
+                    return user;
+                }
+            });
+        },
+        removeUser: (state, action) => {
+            state.usersList = state.usersList.filter(user => {
+                return user.id !== action.payload;
+            });
         },
     },
 })
 
-export const { addUser, editUser } = usersSlice.actions
+export const {addUser, editUser, removeUser, initState, setDefaultList} = usersSlice.actions
 
 export default usersSlice.reducer

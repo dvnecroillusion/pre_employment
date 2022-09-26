@@ -12,9 +12,7 @@ body > #root > div {
 }
 
 .app-content {
-  padding-top: 37px;
-  padding-left: 20%;
-  padding-right: 20%;
+  padding: 37px 20% 20px;
 }
 
 .commands-row {
